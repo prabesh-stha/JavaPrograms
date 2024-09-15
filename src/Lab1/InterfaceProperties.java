@@ -1,4 +1,4 @@
-package Lab1;
+package lab1;
 
 interface Manager{
 	public void hired();
