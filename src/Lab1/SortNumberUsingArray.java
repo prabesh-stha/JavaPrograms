@@ -25,6 +25,9 @@ public class SortNumberUsingArray {
 	    }
 
 	public static void main(String[] args) {
+		
+		String name = "Prashant";
+		System.out.println("My name is " + 1);
 	      Random random = new Random();
 	        int length = random.nextInt(6) + 5;
 	        int[] randomNumbers = new int[length];
