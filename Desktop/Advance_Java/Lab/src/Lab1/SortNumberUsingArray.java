@@ -1,7 +1,5 @@
-package Lab1;
-
+package lab1;
 import java.util.Random;
-
 public class SortNumberUsingArray {
 	
 	 public static void bubbleSort(int[] arr) {
@@ -26,10 +24,10 @@ public class SortNumberUsingArray {
 
 	public static void main(String[] args) {
 	      Random random = new Random();
-	        int length = random.nextInt(6) + 5;
+	        int length = random.nextInt(11);
 	        int[] randomNumbers = new int[length];
 	        for (int i = 0; i < length; i++) {
-	            randomNumbers[i] = random.nextInt(100) + 1; 
+	            randomNumbers[i] = random.nextInt(101); 
 	        }
 	        System.out.println("Original Array:");
 	        printArray(randomNumbers);
